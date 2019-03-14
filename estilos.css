@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'DOS';
+  font-style: normal;
+  font-weight: normal;
+  font-smooth: never;
+  src: url("https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.eot");
+  src: url("https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.woff") format("woff"), url("https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.ttf") format("truetype"), url("https://rawgit.com/kristopolous/BOOTSTRA.386/master/v2.3.1/fonts/Fixedsys500c.svg") format("svg");
+}
+
+body{
+  font-family: 'DOS';
+}
+
+#iniciobios{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(10, 10, 10);
+  position: fixed;
+  font-size: 30px;
+  color: white;
+  margin: auto;
+}
+.textobini{
+  color: white;
+  position: relative;
+  float: left;
+}
+.parpadeo{
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: rgb(10, 10, 10);
+  border-left: 2px solid white;
+
+  animation: maquina 1s alternate steps(116);
+}
+.clasecerrarbios{
+  display: none;
+}
+
+@keyframes maquina{
+  from {
+    width: 100%;
+  }
+  to{
+    width: 0;
+  }
+
+}
+
+#fondobios{
+  background-color: #55efc4;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#headertitle{
+  position: absolute;
+  top: 1%;
+  font-family: 'DOS';
+  font-size: 22px;
+}
+
+#panelbios{
+  margin-top: -5%;
+  width: 100%;
+  height: 80%;
+  background-color: #b2bec3;
+}
+
+#menu {
+  margin: 0;
+  width: auto;
+  background-color: blue;
+  font-size: 21px;
+  font-family: 'DOS';
+  text-align: left;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  height: auto;
+}
+
+#menu li {
+  display: inline;
+  padding: 8px;
+  margin-right: 20px;
+}
+#menu li:hover {
+  color: blue;
+  background-color: #b2bec3;
+}
+
+#menu a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+#menu a:hover {
+  color: blue;
+  background-color: #b2bec3;
+}
+
+#fondoinfo{
+
+  width: 97%;
+  height: 90%;
+  margin: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  display: inline-block;
+  border: solid 3px black;
+  position: relative;
+
+}
+
+#info1{
+  width: 66%;
+  height: 90%;
+}
+#info2{
+  width: 30%;
+  height: 90%;
+  position: relative;
+  border-left: 0;
+}
+
+
+.info2{
+  display: block;
+  width: 100%;
+  height: 10%;
+}
+
+#info21{
+  height: 20%;
+  border-bottom: solid 3px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#info22{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbios{
+  font-size: 26px;
+  padding: 1em;
+  position: relative;
+  top: 1em;
+}
+
+.textbios2{
+  margin-top: 1em;
+  font-size: 24px;
+  padding-left: 1em;
+  position: relative;
+  top: 1em;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+.textbios2:hover{
+  color: white;
+}
+
+.textinfo21{
+  font-size: 28px;
+  color: blue;
+}
+.textinfo22{
+  font-size: 26px;
+}
+.postextinfo22{
+  width: 80%;
+  height: 90%;
+  top: 1em;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.sepdatosp{
+  display: inline-block;
+  font-size: 1em;
+  height: 50%;
+  vertical-align: top;
+}
+.descdatosp{
+  font-size: 1em;
+}
+@media (max-width: 1227px){
+  .descdatosp {
+      font-size: 15px;
+  }
+  .sepdatosp{
+    display: inline-block;
+    font-size: 0.5em;
+    height: 50%;
+    vertical-align: top;
+  }
+}
+
+#divmenosdatosp{
+  width: 40%;
+}
+#divmasdatosp{
+  width: 55%;
+}
+
+#panelproyectos{
+  width: 600px;
+  height: 300px;
+  border: solid 6px black;
+  background: #b2bec3;
+  position: absolute;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+.arrabaj{
+  width: 100%;
+  display: blocK;
+}
+
+#pproyectosarriba{
+  height: 20%;
+  border-bottom: 3px solid black;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pproyectosabajo{
+  height: 80%;
+}
+
+#salirproyectos{
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+.red{
+  color: red;
+}
+.panelproyectos{
+  display: none;
+}
+.puntero{
+  cursor: pointer;
+}
+
+
+#panelcontacto{
+  width: 700px;
+  height: 500px;
+  border: solid 6px black;
+  background: #b2bec3;
+  position: absolute;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+#pcontactoarriba{
+  height: 20%;
+  border-bottom: 3px solid black;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pcontactoabajo{
+  height: 80%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=text]{
+  background-color: #b2bec3;
+  border: solid 1px black;
+  height: 20px;
+  width: 200px;
+  font-family: DOS;
+}
+input[type=email]{
+  font-family: DOS;
+  background-color: #b2bec3;
+  border: solid 1px black;
+  height: 20px;
+  width: 200px;
+}
+input[type=submit]{
+  font-family: DOS;
+  border: 0;
+  background: #b2bec3;
+  color: blue;
+  font-size: 25px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  color: white;
+}
+
+textarea{
+  font-family: DOS;
+  background-color: #b2bec3;
+  border: solid 1px black;
+}
+
+#footertitle{
+  text-align: center;
+    position: absolute;
+    left: 30%;
+    bottom: 1%;
+    font-family: 'DOS';
+    font-size: 22px;
+    color: rgb(19, 19, 19);
+}

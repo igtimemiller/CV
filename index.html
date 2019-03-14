@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Nacho</title>
+</head>
+<body onload="reloj()">
+
+        
+        
+
+        <div id="fondobios">
+            <span id="headertitle">Phoenix TrustedBios(tm) - Curriculum Vitae Project</span>
+            <div id="panelbios">
+                <div id="menu">
+                        <ul>
+                             <li><a href="#" class="active">Inicio</a></li>
+                             <li><a class="puntero" onclick="abrirpanelp(this)">Proyectos</a></li>
+                             <li><a class="puntero" onclick="abrirpanelc(this)">Contacto</a></li>
+                             <li><a href="javascript:cerrar();">Salir</a></li>
+                        </ul>
+                </div>
+
+                <div id="fondoinfo">
+
+                        
+
+                        <div class="info" id="info1">
+                                <span class="textbios" onclick="this">Bios Version: 1.0.2</span><br>
+                                <span class="textbios">Service tag: CVNAXX</span><br><br><br><br><br>
+
+                                <span class="textbios2" id="hora" onclick="clickhora(this)"></span> <br>
+                                <span class="textbios2" id="fecha" onclick="clickfecha(this)"></span><br><br><br>
+
+                                <span class="textbios2" id="datosp" onclick="clickdatosp(this)">► Datos Personales</span><br>
+                                <span class="textbios2" id="datosc" onclick="clickdatosc(this)">► Datos de Contacto</span><br>
+                                <span class="textbios2" id="formacion" onclick="clickformacion(this)">► Formación</span><br>
+                                <span class="textbios2" id="idiomas" onclick="clickidiomas(this)">► Idiomas</span><br>
+                                <span class="textbios2" id="experiencia" onclick="clickexperiencia(this)">► Experiencia Laboral</span><br>
+                                <span class="textbios2" id="experiencia" onclick="clickaficiones(this)">► Aficiones</span><br>
+                        </div>
+                        <div class="info" id="info2">
+                                <div class="info2" id="info21">
+                                        <span class="textinfo21">Item Specific Help</span>      
+                                </div>
+                                <div class="info2" id="info22">
+                                       <div class="postextinfo22"><span id="textohelp" class="textinfo22">Usa el ratón para obtener información a cerca de todos los elementos de la BIOS.</span></div> 
+                                </div>
+                        </div>
+
+                        <div id="panelproyectos" class="panelproyectos">
+                                        <div class="arrabaj" id="pproyectosarriba">
+                                                PROYECTOS
+                                                <span id="salirproyectos" onclick="cerrarpanelp(this)">X</span>
+                                        </div>
+                                        <div class="arrabaj" id="pproyectosabajo">
+                                                <a href="https://mypanelapps.com" target="_blank" class="textbios2">► Mypanelapps &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ACTIVO]</a><br>
+                                                <a href="https://sketool.io" target="_blank" class="textbios2">► Sketool &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ACTIVO]</a><br>
+                                                <a href="https://dvd.black" target="_blank" class="textbios2">► dvd.black &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="red">[PARADO]</span></a><br>
+                                                <a href="https://backlink.store" target="_blank" class="textbios2">► backlink.store &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="red">[PARADO]</span></a><br>
+                                        </div>
+                        </div>
+
+
+                        <div id="panelcontacto" class="panelproyectos">
+                                        <div class="arrabaj" id="pcontactoarriba">
+                                                CONTACTO
+                                                <span id="salirproyectos" onclick="cerrarpanelc(this)">X</span>
+                                        </div>
+                                        <div class="arrabaj" id="pcontactoabajo">
+                                               <form action="enviar.php">
+                                                       Nombre:<br>
+                                                       <input type="text" name="nombre"><br>
+                                                       Email:<br>
+                                                       <input type="email" name="email"><br>
+                                                       Mensaje:<br>
+                                                       <textarea name="mensaje" id="" cols="90" rows="10"></textarea><br>
+
+                                                        <input type="submit" value="Enviar">
+                                               </form>
+                                        </div>
+                        </div>
+                </div>
+            </div>
+    </div>
+    <span id="footertitle"> <h2>PROYECTO CV DESARROLLADO POR <b>MI</b> - 1DAW</h2></span>
+
+    <!-- Aqui Inicio de la BIOS-->
+
+         <div id="iniciobios">
+                <span class="textobini"> Accediendo al sistema de BIOS espere un momento...<span class="parpadeo">&#160;</span></span><br><br>
+                <span id="textobini2" class="textobini"><span class="parpadeo">&#160;</span></span><br><br>
+                <span id="textobini3" class="textobini"><span class="parpadeo">&#160;</span></span><br><br>
+                <span id="textobini4" class="textobini"><span class="parpadeo">&#160;</span></span>
+                <span id="textobini5" class="textobini"><span class="parpadeo">&#160;</span></span>
+                <span id="textobini6" class="textobini"><span class="parpadeo">&#160;</span></span>
+                <span id="textobini7" class="textobini"><span class="parpadeo">&#160;</span></span>
+                <span id="textobini8" class="textobini"><span class="parpadeo">&#160;</span></span>
+                <span id="textobini9" class="textobini"><span class="parpadeo">&#160;</span></span>
+         </div>
+
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
