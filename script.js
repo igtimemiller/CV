@@ -52,7 +52,7 @@ function clickdatosc(bal){
 }
 
 function clickformacion(bal){
-    textohelp.innerHTML = '<h2> Titulación de BACHILLER CIENTÍFICO</h2> Descargala <a href="https://drive.google.com/uc?export=download&id=0B7huN5fv58HYeFlKSXkxQkVwaTUyYVl5aGt6cGtSR2RpZzY4">aquí</a> <br><br> <h3>Actualmente cursando Grado Superior en Desarrollo de Aplicaciones Web </h3> Más información <a href="http://www.floridauniversitaria.es/es-ES/OfertaAcademica/ciclosformativos/Paginas/desarrollo-aplicaciones-web.aspx?Perfil=Futuro+Estudiante" target="_blank">aquí</a> ';
+    textohelp.innerHTML = '<h2> Titulación de BACHILLER CIENTÍFICO</h2> Descargala <a href="https://drive.google.com/uc?export=download&id=1YQUVwjctgB1Ookx1Az66-YbJZ4pUGQlo">aquí</a> <br><br> <h3>Actualmente cursando Grado Superior en Desarrollo de Aplicaciones Web </h3> Más información <a href="http://www.floridauniversitaria.es/es-ES/OfertaAcademica/ciclosformativos/Paginas/desarrollo-aplicaciones-web.aspx?Perfil=Futuro+Estudiante" target="_blank">aquí</a> ';
 }
 
 function clickidiomas(bal){
