@@ -206,7 +206,7 @@ img{
   vertical-align: top;
 }
 .descdatosp{
-  font-size: 1em;
+  font-size: 0.7em;
 }
 @media (max-width: 1227px){
   .descdatosp {
@@ -333,4 +333,9 @@ textarea{
     font-family: 'DOS';
     font-size: 22px;
     color: rgb(19, 19, 19);
+}
+
+.topcero{
+  top: 15%;
+  position: absolute;
 }
